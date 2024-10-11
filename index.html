@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>LUFFYHUB</title>
+</head>
+<body>
+    <!-- Menu Bar -->
+    <nav>
+        <ul class="menu-bar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#videos">Videos</a></li>
+            <li><a href="#files">Files</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Search Bar -->
+    <form action="/search" method="GET" class="search-bar">
+        <input type="text" placeholder="Search..." name="query">
+        <button type="submit">Search</button>
+    </form>
+
+    <!-- Heading -->
+    <h1 class="N">LUFFY</h1>
+    <h1 class="H">HUB</h1>
+    <p>Here You Will Find Nothing. But Sometimes I Might Upload Some Crazy Things And Premium Accounts Of Crunchyroll And Bla Bla Bla...</p>
+
+    <!-- File Upload Form -->
+    <form action="/upload" method="POST" enctype="multipart/form-data" class="upload-form">
+        <label for="fileUpload">Upload a File:</label>
+        <input type="file" id="fileUpload" name="uploadedFile" accept=".apk, .mp4, .zip">
+        <button type="submit">Upload</button>
+    </form>
+
+    <!-- Hot Videos Section -->
+    <h3>Hot Videos:</h3>
+    <div class="sp-embed-player" data-id="cZ6XfBVWOyJ">
+        <iframe width="95%" height="95%" style="border:0;" scrolling="no" src="https://go.screenpal.com/player/cZ6XfBVWOyJ?width=100%&height=100%&ff=1" allowfullscreen="true"></iframe>
+        <p class="part1">Exclusive Hot Video . | Premium Gold Exclusive Part 01</p>
+    </div>
+    <br>
+    <div class="sp-embed-player" data-id="cZ6XfBVWOyd">
+        <iframe width="95%" height="95%" style="border:0;" scrolling="no" src="https://go.screenpal.com/player/cZ6XfBVWOyd?width=100%&height=100%&ff=1" allowfullscreen="true"></iframe>
+        <p class="part2">Exclusive Hot Video . | Premium Gold Exclusive Part 02 | Final</p>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,128 @@
+/* General Body Styling */
+body {
+    background: black;
+    color: orange;
+    font-family: Arial, sans-serif;
+}
+
+/* Heading Styles */
+.H {
+    background: #FF9900;
+    display: inline;
+    padding: 2px 4px;
+    color: black;
+    font-size: 10vw;
+}
+
+.N {
+    color: white;
+    display: inline;
+    font-size: 10vw;
+}
+
+/* Paragraphs */
+p {
+    color: orange;
+    font-size: 6vw;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+.part1, .part2 {
+    color: orange;
+    font-size: 4vw;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+/* Hot Videos Heading */
+h3 {
+    color: white;
+}
+
+/* Menu Bar */
+.menu-bar {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #FF9900;
+    margin-bottom: 20px;
+}
+
+.menu-bar li {
+    margin: 0 15px;
+}
+
+.menu-bar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.menu-bar a:hover {
+    background-color: #FFCC00;
+    border-radius: 4px;
+}
+
+/* Responsive CSS for Menu Bar */
+@media (max-width: 768px) {
+    .menu-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Search Bar */
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.search-bar input {
+    width: 200px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.search-bar button {
+    padding: 8px 12px;
+    border-radius: 4px;
+    background-color: #FF9900;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.search-bar button:hover {
+    background-color: #FFCC00;
+}
+
+/* Upload Form */
+.upload-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="file"] {
+    margin: 10px 0;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: #FF9900;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FFCC00;
+}
